@@ -10,8 +10,6 @@
  */
 package com.i2rd.app;
 
-import java.util.Arrays;
-
 import org.i2rd.util.Util;
 
 /**
@@ -27,6 +25,6 @@ public class Main
      */
     public static void main(String[] args)
     {
-        System.out.println(Util.toString(Arrays.asList(args), ", "));
+        System.out.println(Util.toString(args, ", "));
     }
 }
