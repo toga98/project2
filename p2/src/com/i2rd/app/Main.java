@@ -10,10 +10,12 @@
  */
 package com.i2rd.app;
 
+import java.util.Arrays;
+
 import org.i2rd.util.Util;
 
 /**
- * This is the main application.
+ * This class is used to output a formatted list of arguments.
  * @author Russ Tennant (russ@i2rd.com)
  */
 public class Main
@@ -25,6 +27,6 @@ public class Main
      */
     public static void main(String[] args)
     {
-        System.out.println(Util.toString(args, ", "));
+        System.out.println(Util.toString(Arrays.asList(args), ", "));
     }
 }
