@@ -15,13 +15,16 @@ import java.util.Arrays;
 import org.i2rd.util.Util;
 
 /**
- * Type comment.
+ * This is the main application.
  * @author Russ Tennant (russ@i2rd.com)
  */
 public class Main
 {
 
-    
+    /**
+     * Command Line.
+     * @param args arguments.
+     */
     public static void main(String[] args)
     {
         System.out.println(Util.toString(Arrays.asList(args), ", "));
